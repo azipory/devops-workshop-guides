@@ -4,7 +4,7 @@ In this lab you will get familiar with production deployments without requiring 
 
 #### Background
 
-Although you have automated the build and deployment of the Cart service all the way from development to production, every time the pipeline performs the deployment in production the service is unavailable for the period it takes for the Cart container to start up. This might be acceptable for certain services however an unavailable service for an online shop equalis lost orders and revenue specially during shopping seasons like Christmas.
+Although you have automated the build and deployment of the Cart service all the way from development to production, every time the pipeline performs the deployment in production the service is unavailable for the period it takes for the Cart container to start up. This might be acceptable for certain services however an unavailable service for an online shop equals lost orders and revenue specially during shopping seasons like Christmas.
 
 Zero downtime deployments refers to a number of deployment pattern that allow deploying to production environment during work hours without a need for service windows and without causing any disruption for the live services. Blue-Green and Canary Release are two popular patterns that are often used to achieve zero downtime deployments.
 
